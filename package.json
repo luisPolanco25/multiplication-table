@@ -1,5 +1,5 @@
 {
-  "name": "02-bases-node",
+  "name": "multiplication-table",
   "version": "0.0.2",
   "description": "A multiplication table",
   "main": "index.js",
