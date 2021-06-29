@@ -3,7 +3,7 @@ const argv = require('./config/yargs');
 
 console.clear();
 
-generateFile(argv.b, argv.l, argv.t);
+generateFile(argv.b, argv.v, argv.t);
 
 
 

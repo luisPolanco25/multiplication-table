@@ -5,8 +5,8 @@ const argv = require('yargs')
                                 demandOption: true,
                                 describe: `It's the table's base`
                             })
-                            .option('l', {
-                                alias: 'listing',
+                            .option('v', {
+                                alias: 'view',
                                 type: 'boolean',
                                 default: false,
                                 describe: 'Shows the table in console'

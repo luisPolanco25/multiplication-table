@@ -12,7 +12,7 @@ Options:
       --help     Show help                                             [boolean]
       --version  Show version number                                   [boolean]
   -b, --base     It's the table's base                       [number] [required]
-  -l, --listing  Shows the table in console           [boolean] [default: false]
+  -v, --view     Shows the table in console           [boolean] [default: false]
   -t, --to       Base will multiply until this number     [number] [default: 10]
-  
+
 ```

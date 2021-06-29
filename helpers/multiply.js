@@ -2,7 +2,7 @@ const fs = require('fs');
 const colors = require('colors');
 
 
-const generateFile = async(baseNum = 5, listing = false, to = 10) => {
+const generateFile = async(baseNum = 5, view = false, to = 10) => {
 
     try {
         
@@ -15,7 +15,7 @@ const generateFile = async(baseNum = 5, listing = false, to = 10) => {
             consoleOutput += `${baseNum} ${'x'.cyan} ${x} ${'='.cyan} ${baseNum * x}\n`;
         }
     
-        if (listing) {
+        if (view) {
             console.log('======================'.rainbow);
             console.log(`    Table of ${baseNum}    `.yellow);
             console.log('======================'.rainbow);
